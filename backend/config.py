@@ -1,5 +1,3 @@
-# backend/config.py
-
 MODEL_PATH = "./models/"
 
 STYLES = {

@@ -1,19 +1,16 @@
 import uuid
 import cv2
 import uvicorn
-from fastapi import File
-from fastapi import FastAPI
-from fastapi import UploadFile
 import numpy as np
-from PIL import Image
-
 import config
 import inference
 import asyncio
 import time
-
+from fastapi import File
+from fastapi import FastAPI
+from fastapi import UploadFile
+from PIL import Image
 from concurrent.futures import ProcessPoolExecutor
-
 from functools import partial
 
 app = FastAPI()
